@@ -21,7 +21,7 @@ Follow these instructions to set up and run the project on your local machine.
 
 3. Start the development server:
    ```bash
-   npm start
+   npm run dev
    ```
 
 4. Access the frontend at:
@@ -36,19 +36,25 @@ Follow these instructions to set up and run the project on your local machine.
    cd backend
    ```
 
-2. Build the project:
+2. Update the database credentials in `application.properties`:
+   - Set your **username** and **password** for the database.
+   - Create the required database.
+
+3. Provide your Gmail and app password for email functionality.
+
+4. Build the project:
    ```bash
    ./mvnw clean install   # For Linux/Mac
    mvnw.cmd clean install # For Windows
    ```
 
-3. Start the Spring Boot server:
+5. Start the Spring Boot server:
    ```bash
    ./mvnw spring-boot:run   # For Linux/Mac
    mvnw.cmd spring-boot:run # For Windows
    ```
 
-4. Access the backend server at:
+6. Access the backend server at:
    ```
    http://localhost:8080
    ```
