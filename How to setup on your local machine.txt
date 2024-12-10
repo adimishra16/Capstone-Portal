@@ -8,11 +8,11 @@ change db creadential in application.properties file
 
 => and create database
 
-=> change razorpay api & secret
-
 => give your gmail and app password
 
-run backend
+ruu src/test/ProjectmanagementApplicationTest.java
+
+and Your Backend will start running 
 
 for frontend 
 => do npm i
